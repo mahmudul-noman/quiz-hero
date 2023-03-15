@@ -16,15 +16,15 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
-          theme: {
-            extend: {
-              fontFamily: {
-                common: ["Rubik", "sans-serif"],
-              },
+            theme: {
+                extend: {
+                    fontFamily: {
+                        common: ["Rubik", "sans-serif"],
+                    },
+                },
             },
-          },
         };
-      </script>
+    </script>
 </head>
 
 <body class="bg-white font-common">
@@ -46,55 +46,106 @@
 
     <!-- question section start -->
 
-    <section class="container mx-auto py-10 columns-4 gap-4">
+    <section class="container gap-4 grid grid-cols-4 mx-auto py-10">
+        <!-- Question 1 -->
         <div class="card w-80 bg-base-100 shadow-xl">
             <figure><img src="demoPic1.jpg" alt="Shoes" /></figure>
             <div class="card-body">
                 <h2 class="card-title text-green-700">Difference between map(), filter(), find() and forEach() !</h2>
                 <p>If a dog chews shoes whose shoes does he choose?</p>
-                <div class="card-actions justify-end">
-                    <button class="btn bg-green-800">Show Answer &nbsp; <i class="fa-solid fa-caret-right"></i></button>
+                <!-- Modal -->
+                <div class="my-modal">
+                    <label for="my-modal-5" class="btn bg-green-800">Show Answer &nbsp; <i
+                            class="fa-solid fa-caret-right"></i></label>
+                    <input type="checkbox" id="my-modal-5" class="modal-toggle" />
+                    <div class="modal">
+                        <div class="modal-box w-11/12 max-w-5xl">
+                            <h3 class="font-bold text-lg">Congratulations random Internet user!</h3>
+                            <p class="py-4">You've been selected for a chance to get one year of subscription to use
+                                Wikipedia for free!</p>
+                            <div class="modal-action">
+                                <label for="my-modal-5" class="btn btn-outline btn-error">Reading Complete &nbsp; <span class="text-success"><i class="fa-solid fa-circle-check"></i></span></label>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        
+
+        <!-- Question 2 -->
         <div class="card w-80 bg-base-100 shadow-xl">
             <figure><img src="demoPic1.jpg" alt="Shoes" /></figure>
             <div class="card-body">
                 <h2 class="card-title text-green-700">Difference between localStorage, sessionStorage and Cookies !</h2>
                 <p>If a dog chews shoes whose shoes does he choose?</p>
-                <div class="card-actions justify-end">
-                    <button class="btn bg-green-800">Show Answer &nbsp; <i class="fa-solid fa-caret-right"></i></button>
+                <!-- Modal -->
+                <div class="my-modal">
+                    <label for="my-modal-5" class="btn bg-green-800">Show Answer &nbsp; <i
+                            class="fa-solid fa-caret-right"></i></label>
+                    <input type="checkbox" id="my-modal-5" class="modal-toggle" />
+                    <div class="modal">
+                        <div class="modal-box w-11/12 max-w-5xl">
+                            <h3 class="font-bold text-lg">Congratulations random Internet user!</h3>
+                            <p class="py-4">You've been selected for a chance to get one year of subscription to use
+                                Wikipedia for free!</p>
+                            <div class="modal-action">
+                                <label for="my-modal-5" class="btn btn-outline btn-error">Reading Complete &nbsp; <span class="text-success"><i class="fa-solid fa-circle-check"></i></span></label>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        
+
+        <!-- Question 3 -->
         <div class="card w-80 bg-base-100 shadow-xl">
             <figure><img src="demoPic1.jpg" alt="Shoes" /></figure>
             <div class="card-body">
                 <h2 class="card-title text-green-700">What is Event Loop ? How it works ?</h2>
                 <p>If a dog chews shoes whose shoes does he choose?</p>
-                <div class="card-actions justify-end">
-                    <button class="btn bg-green-800">Show Answer &nbsp; <i class="fa-solid fa-caret-right"></i></button>
+                <!-- Modal -->
+                <div class="my-modal">
+                    <label for="my-modal-5" class="btn bg-green-800">Show Answer &nbsp; <i
+                            class="fa-solid fa-caret-right"></i></label>
+                    <input type="checkbox" id="my-modal-5" class="modal-toggle" />
+                    <div class="modal">
+                        <div class="modal-box w-11/12 max-w-5xl">
+                            <h3 class="font-bold text-lg">Congratulations random Internet user!</h3>
+                            <p class="py-4">You've been selected for a chance to get one year of subscription to use
+                                Wikipedia for free!</p>
+                            <div class="modal-action">
+                                <label for="my-modal-5" class="btn btn-outline btn-error">Reading Complete &nbsp; <span class="text-success"><i class="fa-solid fa-circle-check"></i></span></label>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        
+
+        <!-- Question 4 -->
         <div class="card w-80 bg-base-100 shadow-xl">
             <figure><img src="demoPic1.jpg" alt="Shoes" /></figure>
             <div class="card-body">
                 <h2 class="card-title text-green-700">Discuss about quizTimer() and chooseQuiz() function !</h2>
-                <p>If a dog chews shoes whose shoes does he choose?</p>
-                <div class="card-actions justify-end">
-                    <button class="btn bg-green-800">Show Answer &nbsp; <i class="fa-solid fa-caret-right"></i></button>
+                <!-- Modal -->
+                <div class="my-modal">
+                    <label for="my-modal-5" class="btn bg-green-800">Show Answer &nbsp; <i
+                            class="fa-solid fa-caret-right"></i></label>
+                    <input type="checkbox" id="my-modal-5" class="modal-toggle" />
+                    <div class="modal">
+                        <div class="modal-box w-11/12 max-w-5xl">
+                            <h3 class="font-bold text-lg">Congratulations random Internet user!</h3>
+                            <p class="py-4">You've been selected for a chance to get one year of subscription to use
+                                Wikipedia for free!</p>
+                            <div class="modal-action">
+                                <label for="my-modal-5" class="btn btn-outline btn-error">Reading Complete &nbsp; <span class="text-success"><i class="fa-solid fa-circle-check"></i></span></label>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        
     </section>
-
-
-
     <!-- question section end -->
 
 

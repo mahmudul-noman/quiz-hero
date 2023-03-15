@@ -54,6 +54,8 @@
                     <input type="checkbox" id="my-modal-1" class="modal-toggle" />
                     <div class="modal">
                         <div class="modal-box w-11/12 max-w-5xl">
+                            <label for="my-modal-1"
+                                class="btn btn-sm btn-circle btn-error absolute right-2 top-2">✕</label>
                             <h3 class="font-bold text-lg text-green-600">Difference between map(), filter(), find() and
                                 forEach() !</h3>
                             <p class="py-4">
@@ -95,6 +97,8 @@
                     <input type="checkbox" id="my-modal-2" class="modal-toggle" />
                     <div class="modal">
                         <div class="modal-box w-11/12 max-w-5xl">
+                            <label for="my-modal-2"
+                                class="btn btn-sm btn-circle btn-error absolute right-2 top-2">✕</label>
                             <h3 class="font-bold text-lg">Difference between localStorage, sessionStorage and Cookies !
                             </h3>
                             <p class="py-4">
@@ -141,6 +145,8 @@
                     <input type="checkbox" id="my-modal-3" class="modal-toggle" />
                     <div class="modal">
                         <div class="modal-box w-11/12 max-w-5xl">
+                            <label for="my-modal-3"
+                                class="btn btn-sm btn-circle btn-error absolute right-2 top-2">✕</label>
                             <h3 class="font-bold text-lg">What is Event Loop ? How it works ?</h3>
                             <p class="py-4">
                                 <span class="text-red-600 font-bold">Event Loop: </span>The event loop is the secret
@@ -176,51 +182,37 @@
                     <input type="checkbox" id="my-modal-4" class="modal-toggle" />
                     <div class="modal">
                         <div class="modal-box w-11/12 max-w-5xl">
+                            <label for="my-modal-4"
+                                class="btn btn-sm btn-circle btn-error absolute right-2 top-2">✕</label>
                             <h3 class="font-bold text-lg">Discuss about quizTimer() and chooseQuiz() function !</h3>
                             <p class="py-4">
                                 <span class="text-red-600 font-bold">quizTimer(): </span><br>
-                                This function appears to be a timer function used for a quiz.
-                                <br>
-                                The function takes in one parameter dismiss, which is a boolean value indicating
-                                whether the timer should be dismissed or not. If dismiss is true, then the function
-                                clears the interval using clearInterval(timer) and returns.
-                                <br>
-                                If dismiss is false, the function sets up an interval using setInterval that runs
-                                every 1000 milliseconds (1 second). Inside the interval function, the code updates
-                                the HTML element with an ID of count to display the current count in minutes and
-                                seconds, along with a "sec" subscript.
-                                <br>
-                                The code also increments the count variable, and if count is greater than 60, it
-                                alternates the color of the text by adding and removing CSS classes text-red-300 and
-                                text-red-700.
-                                <br>
-                                Overall, this function appears to be used to keep track of time during a quiz and
-                                update the display accordingly. It can be dismissed by passing in true as the
-                                dismiss parameter. <br><br>
+                                This timer function used for a quiz. <br>
+                                The function has one parameter dismiss, which is a boolean value. If dismiss is true,
+                                the function clears the interval using clearInterval(timer) and returns. <br>
+                                If dismiss is false, the function set up the interval using setInterval that runs every
+                                1 second. Inside the interval function, the code updates the HTML element with an ID of
+                                count to display the current count in minutes and seconds.The code also increments the
+                                count variable, and if count is greater than 60, the text color adding and removing CSS
+                                classes text-red-300 and text-red-700. <br><br>
 
                                 <span class="text-red-600 font-bold">chooseQuiz(): </span><br>
-                                This function appears to be used for choosing a quiz answer and adding it to an array of
-                                answers.
-                                <br>
-                                The function takes two parameters: index and givenAns. index is the index of the current
-                                quiz question being answered, and givenAns is the answer that has been selected by the
-                                user.
-                                <br>
+                                This function choosing a quiz answer and adding it to an array of answers. <br>
+                                The function takes two parameters: index and givenAns. index is the index number of
+                                current quiz question and givenAns is the answer which i select. <br>
                                 The function first checks if an answer for the current quiz question already exists in
                                 the answers array by using the find() method. If an answer already exists, it updates
                                 the existing answer by finding its index using a for...of loop and the splice() method
                                 to replace the old answer with the new one. If the answer does not exist in the answers
                                 array, it adds a new object to the array containing the quiz question ID and the user's
-                                selected answer.
-                                <br>
+                                selected answer. <br>
                                 After updating the answers array, the function calls a displayAnswers() function that is
                                 not shown in the code provided. It's possible that this function is responsible for
-                                displaying the current state of the quiz and the user's selected answers.
-                                <br>
+                                displaying the current state of the quiz and the user's selected answers. <br>
                                 Overall, this function is likely used in a quiz application to allow users to select
                                 their answers and keep track of them in an array for later use or submission.
+
                             </p>
-                            <span class="text-gray-400">Source: Chat GPT *</span>
                             <div class="modal-action">
                                 <label for="my-modal-4" class="btn btn-outline btn-success">Reading Complete &nbsp;
                                     <span><i class="fa-solid fa-circle-check"></i></span></label>

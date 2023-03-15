@@ -35,7 +35,7 @@
             <div class="text-zinc-800 font-bold uppercase">
                 <h1 class="text-lg"><a href="index.html">Quiz <span class="text-green-700">HERO</span></a></h1>
             </div>
-            <p class="text-5xl text-green-700"><i class="fa-solid fa-book-open-reader"></i></p>
+            <p class="text-2xl text-green-700 font-bold">BL <i class="fa-solid fa-book-open-reader"></i> G</p>
             <h4 class="font-bold">
                 <marquee>Welcome to <span class="text-green-700 uppercase">Blog Hero</span> Page.</marquee>
             </h4>
@@ -52,19 +52,35 @@
             <figure><img src="demoPic1.jpg" alt="Shoes" /></figure>
             <div class="card-body">
                 <h2 class="card-title text-green-700">Difference between map(), filter(), find() and forEach() !</h2>
-                <p>If a dog chews shoes whose shoes does he choose?</p>
+                <p>map(), filter(), find() and forEach()......</p>
                 <!-- Modal -->
                 <div class="my-modal">
-                    <label for="my-modal-5" class="btn bg-green-800">Show Answer &nbsp; <i
+                    <label for="my-modal-1" class="btn bg-green-800">Show Answer &nbsp; <i
                             class="fa-solid fa-caret-right"></i></label>
-                    <input type="checkbox" id="my-modal-5" class="modal-toggle" />
+                    <input type="checkbox" id="my-modal-1" class="modal-toggle" />
                     <div class="modal">
                         <div class="modal-box w-11/12 max-w-5xl">
-                            <h3 class="font-bold text-lg">Congratulations random Internet user!</h3>
-                            <p class="py-4">You've been selected for a chance to get one year of subscription to use
-                                Wikipedia for free!</p>
+                            <h3 class="font-bold text-lg text-green-600">Difference between map(), filter(), find() and
+                                forEach() !</h3>
+                            <p class="py-4">
+                                <span class="text-red-600 font-bold">map(): </span>The map() method loops through each
+                                element in array and calls the provided function for each element. This method creates a
+                                new array and doesn’t alter the original array. <br><br>
+                                <span class="text-red-600 font-bold">filter(): </span>The filter() method in JavaScript
+                                creates a new array with the elements that satisfies the provided condition. This method
+                                calls a provided function for each element in array and verifies the condition given in
+                                the provided function and passes only those elements that satisfy the given condition.
+                                <br><br>
+                                <span class="text-red-600 font-bold">find(): </span>The find () method returns the value
+                                of the first element of the array that satisfies the test function provided. Otherwise,
+                                the undefined value is returned. <br><br>
+                                <span class="text-red-600 font-bold">forEach(): </span>forEach() is used to execute the
+                                same code on every element in an array but does not change the array and it returns
+                                undefined.
+                            </p>
                             <div class="modal-action">
-                                <label for="my-modal-5" class="btn btn-outline btn-error">Reading Complete &nbsp; <span class="text-success"><i class="fa-solid fa-circle-check"></i></span></label>
+                                <label for="my-modal-1" class="btn btn-outline btn-success">Reading Complete &nbsp;
+                                    <span><i class="fa-solid fa-circle-check"></i></span></label>
                             </div>
                         </div>
                     </div>
@@ -77,19 +93,40 @@
             <figure><img src="demoPic1.jpg" alt="Shoes" /></figure>
             <div class="card-body">
                 <h2 class="card-title text-green-700">Difference between localStorage, sessionStorage and Cookies !</h2>
-                <p>If a dog chews shoes whose shoes does he choose?</p>
+                <p>localStorage, sessionStorage and Cookies...</p>
                 <!-- Modal -->
                 <div class="my-modal">
-                    <label for="my-modal-5" class="btn bg-green-800">Show Answer &nbsp; <i
+                    <label for="my-modal-2" class="btn bg-green-800">Show Answer &nbsp; <i
                             class="fa-solid fa-caret-right"></i></label>
-                    <input type="checkbox" id="my-modal-5" class="modal-toggle" />
+                    <input type="checkbox" id="my-modal-2" class="modal-toggle" />
                     <div class="modal">
                         <div class="modal-box w-11/12 max-w-5xl">
-                            <h3 class="font-bold text-lg">Congratulations random Internet user!</h3>
-                            <p class="py-4">You've been selected for a chance to get one year of subscription to use
-                                Wikipedia for free!</p>
+                            <h3 class="font-bold text-lg">Difference between localStorage, sessionStorage and Cookies !
+                            </h3>
+                            <p class="py-4">
+                                <span class="text-red-600 font-bold">Local Storage: </span>Local storage is the most
+                                recent mechanism. It allows for larger amounts of data to be stored, but the data is not
+                                deleted when the browser is closed. Local storage is useful for storing data that the
+                                user will need to access later, such as offline data. <br><b>Summarize:</b> Has no
+                                expiration date,Client only, Has no SSL support, Data are not transferred on each HTTP
+                                request, 5 mb limit (check with the browser) <br> <br>
+                                <span class="text-red-600 font-bold">Session Storage: </span>Session storage is similar
+                                to cookies, but the data is only stored for the current session. This means that the
+                                data will be deleted when the user closes the browser. Session storage is useful for
+                                storing data that is sensitive, such as login credentials. <br><b>Summarize:</b> Data is
+                                gone when you close the browser tab, Client only, Has no SSL support, Data are not
+                                transferred on each HTTP request, 5-10 mb limit (check with the browser) <br><br>
+                                <span class="text-red-600 font-bold">Cookies: </span>Cookies are the oldest and most
+                                well-known mechanism. They are simple to use and well supported by browsers. However,
+                                they are limited to 4KB of data and are often used to store data that is not sensitive,
+                                such as user preferences. <br><b>Summarize:</b> Has different expiration dates (both the
+                                server or client can set up expiration date), The Client can't access the Cookies if the
+                                HttpOnly flag is true, Has SSL Support, Data are transferred on each HTTP request, 4kb
+                                limit
+                            </p>
                             <div class="modal-action">
-                                <label for="my-modal-5" class="btn btn-outline btn-error">Reading Complete &nbsp; <span class="text-success"><i class="fa-solid fa-circle-check"></i></span></label>
+                                <label for="my-modal-2" class="btn btn-outline btn-success">Reading Complete &nbsp;
+                                    <span><i class="fa-solid fa-circle-check"></i></span></label>
                             </div>
                         </div>
                     </div>
@@ -102,19 +139,29 @@
             <figure><img src="demoPic1.jpg" alt="Shoes" /></figure>
             <div class="card-body">
                 <h2 class="card-title text-green-700">What is Event Loop ? How it works ?</h2>
-                <p>If a dog chews shoes whose shoes does he choose?</p>
+                <p>Event Loop & Its Work...</p>
                 <!-- Modal -->
                 <div class="my-modal">
-                    <label for="my-modal-5" class="btn bg-green-800">Show Answer &nbsp; <i
+                    <label for="my-modal-3" class="btn bg-green-800">Show Answer &nbsp; <i
                             class="fa-solid fa-caret-right"></i></label>
-                    <input type="checkbox" id="my-modal-5" class="modal-toggle" />
+                    <input type="checkbox" id="my-modal-3" class="modal-toggle" />
                     <div class="modal">
                         <div class="modal-box w-11/12 max-w-5xl">
-                            <h3 class="font-bold text-lg">Congratulations random Internet user!</h3>
-                            <p class="py-4">You've been selected for a chance to get one year of subscription to use
-                                Wikipedia for free!</p>
+                            <h3 class="font-bold text-lg">What is Event Loop ? How it works ?</h3>
+                            <p class="py-4">
+                                <span class="text-red-600 font-bold">Event Loop: </span>The event loop is the secret
+                                behind JavaScript’s asynchronous programming. JS executes all operations on a single
+                                thread, but using a few smart data structures, it gives us the illusion of
+                                multi-threading. Let’s take a look at what happens on the back-end. <br><br>
+                                <span class="text-red-600 font-bold">How it works: </span>The event loop is a process
+                                that waits for the Call Stack to be clear before pushing callbacks from the Task Queue
+                                to the Call Stack. Once the Stack is clear, the event loop triggers and checks the Task
+                                Queue for available callbacks. If there are any, it pushes it to the Call Stack, waits
+                                for the Call Stack to be clear again, and repeats the same process.
+                            </p>
                             <div class="modal-action">
-                                <label for="my-modal-5" class="btn btn-outline btn-error">Reading Complete &nbsp; <span class="text-success"><i class="fa-solid fa-circle-check"></i></span></label>
+                                <label for="my-modal-3" class="btn btn-outline btn-success">Reading Complete &nbsp;
+                                    <span><i class="fa-solid fa-circle-check"></i></span></label>
                             </div>
                         </div>
                     </div>
@@ -127,18 +174,62 @@
             <figure><img src="demoPic1.jpg" alt="Shoes" /></figure>
             <div class="card-body">
                 <h2 class="card-title text-green-700">Discuss about quizTimer() and chooseQuiz() function !</h2>
+                <p>Discuss about quizTimer() and chooseQuiz() function...</p>
                 <!-- Modal -->
                 <div class="my-modal">
-                    <label for="my-modal-5" class="btn bg-green-800">Show Answer &nbsp; <i
+                    <label for="my-modal-4" class="btn bg-green-800">Show Answer &nbsp; <i
                             class="fa-solid fa-caret-right"></i></label>
-                    <input type="checkbox" id="my-modal-5" class="modal-toggle" />
+                    <input type="checkbox" id="my-modal-4" class="modal-toggle" />
                     <div class="modal">
                         <div class="modal-box w-11/12 max-w-5xl">
-                            <h3 class="font-bold text-lg">Congratulations random Internet user!</h3>
-                            <p class="py-4">You've been selected for a chance to get one year of subscription to use
-                                Wikipedia for free!</p>
+                            <h3 class="font-bold text-lg">Discuss about quizTimer() and chooseQuiz() function !</h3>
+                            <p class="py-4">
+                                <span class="text-red-600 font-bold">quizTimer(): </span><br>
+                                This function appears to be a timer function used for a quiz.
+                                <br>
+                                The function takes in one parameter dismiss, which is a boolean value indicating
+                                whether the timer should be dismissed or not. If dismiss is true, then the function
+                                clears the interval using clearInterval(timer) and returns.
+                                <br>
+                                If dismiss is false, the function sets up an interval using setInterval that runs
+                                every 1000 milliseconds (1 second). Inside the interval function, the code updates
+                                the HTML element with an ID of count to display the current count in minutes and
+                                seconds, along with a "sec" subscript.
+                                <br>
+                                The code also increments the count variable, and if count is greater than 60, it
+                                alternates the color of the text by adding and removing CSS classes text-red-300 and
+                                text-red-700.
+                                <br>
+                                Overall, this function appears to be used to keep track of time during a quiz and
+                                update the display accordingly. It can be dismissed by passing in true as the
+                                dismiss parameter. <br><br>
+
+                                <span class="text-red-600 font-bold">chooseQuiz(): </span><br>
+                                This function appears to be used for choosing a quiz answer and adding it to an array of
+                                answers.
+                                <br>
+                                The function takes two parameters: index and givenAns. index is the index of the current
+                                quiz question being answered, and givenAns is the answer that has been selected by the
+                                user.
+                                <br>
+                                The function first checks if an answer for the current quiz question already exists in
+                                the answers array by using the find() method. If an answer already exists, it updates
+                                the existing answer by finding its index using a for...of loop and the splice() method
+                                to replace the old answer with the new one. If the answer does not exist in the answers
+                                array, it adds a new object to the array containing the quiz question ID and the user's
+                                selected answer.
+                                <br>
+                                After updating the answers array, the function calls a displayAnswers() function that is
+                                not shown in the code provided. It's possible that this function is responsible for
+                                displaying the current state of the quiz and the user's selected answers.
+                                <br>
+                                Overall, this function is likely used in a quiz application to allow users to select
+                                their answers and keep track of them in an array for later use or submission.
+                            </p>
+                            <span class="text-gray-400">Source: Chat GPT *</span>
                             <div class="modal-action">
-                                <label for="my-modal-5" class="btn btn-outline btn-error">Reading Complete &nbsp; <span class="text-success"><i class="fa-solid fa-circle-check"></i></span></label>
+                                <label for="my-modal-4" class="btn btn-outline btn-success">Reading Complete &nbsp;
+                                    <span><i class="fa-solid fa-circle-check"></i></span></label>
                             </div>
                         </div>
                     </div>
